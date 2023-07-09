@@ -1,0 +1,7 @@
+nav{
+    display: flex;
+    background-color: rgb(85, 69, 69);
+}
+.menu{
+    display: flex;
+}
