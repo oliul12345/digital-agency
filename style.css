@@ -1,7 +1,131 @@
-nav{
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
     display: flex;
-    background-color: rgb(85, 69, 69);
+    background-color: rgb(61, 51, 51);
+    justify-content: space-around;
+    padding: 20px;
 }
 .menu{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 25px;
+}
+.menu li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 23px;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+}
+/* banner section start */
+.banner{
+    background-image: url(asset/image/background.jpg),linear-gradient(rgb(65, 55, 55),rgb(73, 48, 48));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    padding: 14px 24px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+.banner-head-text{
+    color: red;
+}
+.banner-text{
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.banner-head{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 15px;
+}
+/* main part star */
+.service-container{
+    height: 100vh;
+    background-color: rgb(99, 89, 89);
+    display: flex;
+    align-items: center;  padding: 30px;
+}
+.Service-text{
+    color: rgb(15, 10, 10);
+}
+.service-info{
+    width: 50%;
+}
+.Service-text{
+    color: rgb(89, 199, 16);
+    font-size: 20px;
+}
+.order > li{
+  color: white;
+  font-size: 20px;
+  
+}
+/* profile part style */
+.profile-heading{
+    color: white;
+    font-size: 30px;
+}
+.profile-info{
+    display: flex;
+    align-items: center;
+    border-right: 3px solid red;
+    padding: 20px;
+}
+.author{
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+}
+.button-div{
+    align-items: center;
+}
+
+
+.icon{
+    width: 90px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icons{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    margin: 25px;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px 10px black;
+    text-align: center;
+   
+}
+.first-two{
+    display: flex;
+}
+.second-two{
     display: flex;
 }
